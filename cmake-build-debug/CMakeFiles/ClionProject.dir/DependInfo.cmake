@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/code.cpp" "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/cmake-build-debug/CMakeFiles/ClionProject.dir/code.cpp.obj"
-  "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/main.cpp" "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/cmake-build-debug/CMakeFiles/ClionProject.dir/main.cpp.obj"
-  "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/mastermind.cpp" "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/cmake-build-debug/CMakeFiles/ClionProject.dir/mastermind.cpp.obj"
-  "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/response.cpp" "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/cmake-build-debug/CMakeFiles/ClionProject.dir/response.cpp.obj"
+  "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding_IDE_test/code.cpp" "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding_IDE_test/cmake-build-debug/CMakeFiles/ClionProject.dir/code.cpp.obj"
+  "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding_IDE_test/main.cpp" "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding_IDE_test/cmake-build-debug/CMakeFiles/ClionProject.dir/main.cpp.obj"
+  "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding_IDE_test/mastermind.cpp" "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding_IDE_test/cmake-build-debug/CMakeFiles/ClionProject.dir/mastermind.cpp.obj"
+  "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding_IDE_test/response.cpp" "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding_IDE_test/cmake-build-debug/CMakeFiles/ClionProject.dir/response.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

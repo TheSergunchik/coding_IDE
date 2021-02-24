@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE
+# Install script for directory: C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding_IDE_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding_IDE_test/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

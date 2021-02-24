@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE"
+CMAKE_SOURCE_DIR = "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ClionProject.dir/depend.make
@@ -58,55 +58,55 @@ include CMakeFiles/ClionProject.dir/flags.make
 
 CMakeFiles/ClionProject.dir/code.cpp.obj: CMakeFiles/ClionProject.dir/flags.make
 CMakeFiles/ClionProject.dir/code.cpp.obj: ../code.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ClionProject.dir/code.cpp.obj"
-	C:\MinGW\bin\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ClionProject.dir\code.cpp.obj -c "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\code.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ClionProject.dir/code.cpp.obj"
+	C:\MinGW\bin\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ClionProject.dir\code.cpp.obj -c "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\code.cpp"
 
 CMakeFiles/ClionProject.dir/code.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClionProject.dir/code.cpp.i"
-	C:\MinGW\bin\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\code.cpp" > CMakeFiles\ClionProject.dir\code.cpp.i
+	C:\MinGW\bin\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\code.cpp" > CMakeFiles\ClionProject.dir\code.cpp.i
 
 CMakeFiles/ClionProject.dir/code.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClionProject.dir/code.cpp.s"
-	C:\MinGW\bin\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\code.cpp" -o CMakeFiles\ClionProject.dir\code.cpp.s
+	C:\MinGW\bin\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\code.cpp" -o CMakeFiles\ClionProject.dir\code.cpp.s
 
 CMakeFiles/ClionProject.dir/response.cpp.obj: CMakeFiles/ClionProject.dir/flags.make
 CMakeFiles/ClionProject.dir/response.cpp.obj: ../response.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ClionProject.dir/response.cpp.obj"
-	C:\MinGW\bin\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ClionProject.dir\response.cpp.obj -c "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\response.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ClionProject.dir/response.cpp.obj"
+	C:\MinGW\bin\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ClionProject.dir\response.cpp.obj -c "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\response.cpp"
 
 CMakeFiles/ClionProject.dir/response.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClionProject.dir/response.cpp.i"
-	C:\MinGW\bin\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\response.cpp" > CMakeFiles\ClionProject.dir\response.cpp.i
+	C:\MinGW\bin\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\response.cpp" > CMakeFiles\ClionProject.dir\response.cpp.i
 
 CMakeFiles/ClionProject.dir/response.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClionProject.dir/response.cpp.s"
-	C:\MinGW\bin\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\response.cpp" -o CMakeFiles\ClionProject.dir\response.cpp.s
+	C:\MinGW\bin\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\response.cpp" -o CMakeFiles\ClionProject.dir\response.cpp.s
 
 CMakeFiles/ClionProject.dir/mastermind.cpp.obj: CMakeFiles/ClionProject.dir/flags.make
 CMakeFiles/ClionProject.dir/mastermind.cpp.obj: ../mastermind.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ClionProject.dir/mastermind.cpp.obj"
-	C:\MinGW\bin\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ClionProject.dir\mastermind.cpp.obj -c "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\mastermind.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ClionProject.dir/mastermind.cpp.obj"
+	C:\MinGW\bin\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ClionProject.dir\mastermind.cpp.obj -c "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\mastermind.cpp"
 
 CMakeFiles/ClionProject.dir/mastermind.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClionProject.dir/mastermind.cpp.i"
-	C:\MinGW\bin\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\mastermind.cpp" > CMakeFiles\ClionProject.dir\mastermind.cpp.i
+	C:\MinGW\bin\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\mastermind.cpp" > CMakeFiles\ClionProject.dir\mastermind.cpp.i
 
 CMakeFiles/ClionProject.dir/mastermind.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClionProject.dir/mastermind.cpp.s"
-	C:\MinGW\bin\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\mastermind.cpp" -o CMakeFiles\ClionProject.dir\mastermind.cpp.s
+	C:\MinGW\bin\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\mastermind.cpp" -o CMakeFiles\ClionProject.dir\mastermind.cpp.s
 
 CMakeFiles/ClionProject.dir/main.cpp.obj: CMakeFiles/ClionProject.dir/flags.make
 CMakeFiles/ClionProject.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ClionProject.dir/main.cpp.obj"
-	C:\MinGW\bin\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ClionProject.dir\main.cpp.obj -c "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ClionProject.dir/main.cpp.obj"
+	C:\MinGW\bin\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ClionProject.dir\main.cpp.obj -c "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\main.cpp"
 
 CMakeFiles/ClionProject.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClionProject.dir/main.cpp.i"
-	C:\MinGW\bin\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\main.cpp" > CMakeFiles\ClionProject.dir\main.cpp.i
+	C:\MinGW\bin\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\main.cpp" > CMakeFiles\ClionProject.dir\main.cpp.i
 
 CMakeFiles/ClionProject.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClionProject.dir/main.cpp.s"
-	C:\MinGW\bin\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\main.cpp" -o CMakeFiles\ClionProject.dir\main.cpp.s
+	C:\MinGW\bin\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\main.cpp" -o CMakeFiles\ClionProject.dir\main.cpp.s
 
 # Object files for target ClionProject
 ClionProject_OBJECTS = \
@@ -126,7 +126,7 @@ ClionProject.exe: CMakeFiles/ClionProject.dir/build.make
 ClionProject.exe: CMakeFiles/ClionProject.dir/linklibs.rsp
 ClionProject.exe: CMakeFiles/ClionProject.dir/objects1.rsp
 ClionProject.exe: CMakeFiles/ClionProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ClionProject.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ClionProject.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ClionProject.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -139,6 +139,6 @@ CMakeFiles/ClionProject.dir/clean:
 .PHONY : CMakeFiles/ClionProject.dir/clean
 
 CMakeFiles/ClionProject.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE" "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE" "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\cmake-build-debug" "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\cmake-build-debug" "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding IDE\cmake-build-debug\CMakeFiles\ClionProject.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test" "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test" "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\cmake-build-debug" "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\cmake-build-debug" "C:\Users\Sergey (Admin)\OneDrive - Northeastern University\1Fundamentals of Algorithms\coding_IDE_test\cmake-build-debug\CMakeFiles\ClionProject.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/ClionProject.dir/depend
 
