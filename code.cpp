@@ -1,8 +1,7 @@
 /*
  * By: Sergey Petrushkevich & Luke Ackerman
  * Project 1, Part B
- * Contains code class and all necessary functions (checkCorrect, checkIncorrect).
- * Implements code class to run a game of Mastermind.
+ * Function definition for code class.
  */
 
 #include "code.h"

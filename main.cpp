@@ -1,8 +1,8 @@
 /*
  * By: Sergey Petrushkevich & Luke Ackerman
  * Project 1, Part B
- * Contains code class and all necessary functions (checkCorrect, checkIncorrect).
- * Implements code class to run a game of Mastermind.
+ * Contains main file to run the mastermind game.
+ * Captures necessary code length and digit range to play a game of Mastermind.
  */
 
 #include <iostream>
@@ -35,10 +35,10 @@ int main()
         cin >> digitRange;
     }while (!cin || digitRange <= 0);
 
-    //create new mastermind object
+    // Create new mastermind object.
     mastermind M = mastermind(codeLength, digitRange);
     
-    //runs game
+    // Runs a game of Mastermind.
     M.playGame();
 
     return 0;
