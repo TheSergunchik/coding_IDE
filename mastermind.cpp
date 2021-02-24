@@ -46,8 +46,10 @@ response mastermind::getResponse(const code &A)
     return guessResponse;
 }
 
-bool mastermind::isSolved(const response &A){
-
+bool mastermind::isSolved(const response &A)
+//passed a response and returns true if the response indicates the code is solved
+{
+    return (A.correctGuess == n && A.incorrectGuess == 0);
 }
 
 void mastermind::playGame()
