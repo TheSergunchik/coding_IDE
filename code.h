@@ -27,6 +27,8 @@ public:
     void printVector();
     void enterElements();
 
+    //test!
+
 private:
     int codeLength;
     int digitRange;
