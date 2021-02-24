@@ -31,8 +31,6 @@ public:
     //An overloaded operator << that prints a response (global).
     friend ostream & operator << (ostream &out, response&A);
 
-
-
 private:
     int correctGuess;
     int incorrectGuess;
