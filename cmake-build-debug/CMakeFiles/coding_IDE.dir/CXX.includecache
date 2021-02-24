@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/code.cpp
+code.h
+C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/code.h
+
+C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/code.h
+iostream
+-
+vector
+-
+time.h
+-
+
+C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/main.cpp
+iostream
+-
+vector
+-
+time.h
+-
+
