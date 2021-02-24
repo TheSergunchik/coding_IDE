@@ -6,13 +6,9 @@
  */
 
 #include <iostream>
-#include <vector>
-#include <time.h>
 #include "code.h"
 #include "mastermind.h"
 using namespace std;
-
-//test
 
 int main()
 {

@@ -26,7 +26,7 @@ public:
     void printSecretCode();
     code humanGuess();
     response getResponse(const code &A);
-    bool isSolved(const response &A);
+    bool isSolved(const response &guessResponse, const response &correctResponse);
     void playGame();
 private:
     code secretCode;

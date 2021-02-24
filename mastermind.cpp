@@ -46,17 +46,22 @@ response mastermind::getResponse(const code &A)
     return guessResponse;
 }
 
-bool mastermind::isSolved(const response &A)
+bool mastermind::isSolved(const response &guessResponse, const response &correctResponse)
 //passed a response and returns true if the response indicates the code is solved
 {
-    return (A.getCorrectResponse() == codeLength && A.getIncorrectResponse() == 0);
+    return (guessResponse == correctResponse);
 }
 
 void mastermind::playGame()
 {
     // initializes a random code
     secretCode = code(codeLength, digitRange);
+    response guessResponse = response(); //
+    response correctResponse = response();
     printSecretCode();
+
+    correctResponse.setCorrectResponse(codeLength);
+    correctResponse.setIncorrectResponse(0);
 
     // If both code length and range are successfully established, creates two code class objects. One is the
     // secret code, another is the guess code.
@@ -64,7 +69,6 @@ void mastermind::playGame()
     code guess = code(codeLength, digitRange);
 
     int attempts = 1;
-    bool endGame = false;
 
     do{ //Starts the 10 attempts.
         cout << endl << "-- Attempt #" << attempts << " --" << endl << endl;
@@ -77,20 +81,22 @@ void mastermind::playGame()
         cout << "GUESS CODE:   ";
         guess.printVector();
         cout << "-------------------" << endl;
+        cout << guessResponse();
+
+
+        /*
         cout << "Correct Digits:   " << getResponse(guess).getCorrectResponse() << endl;
         cout << "Misplaced Digits: " << getResponse(guess).getIncorrectResponse() << endl;
-
-        //Checks to see if all the digits are in all the correct spots. If so, the code is successfully guessed!
-        endGame = isSolved(getResponse(guess));
+        */
 
         attempts++;
-    } while (((attempts <= 10) && (!endGame)));
+    } while (((attempts <= 10) && (!(isSolved(guessResponse, correctResponse)))));
 
     cout << endl << "-- GAME FINISHED --" << endl;
 
     // Provides two options: one where the game maker wins and one where the game breaker wins, depending if the
     // game breaker guessed the code in 10 attempts or less.
-    if(endGame)
+    if(isSolved(guessResponse, correctResponse))
     {
         cout << "The code breaker wins!" << endl << "The code was: ";
         secret.printVector();
@@ -99,8 +105,5 @@ void mastermind::playGame()
         cout << "The code maker wins!" << endl << "The code was: ";
         secret.printVector();
     }
-
-
-    // iteratively gets a guess from the user and prints the response until either the codemaker or the codebreaker has won.
 
 }
