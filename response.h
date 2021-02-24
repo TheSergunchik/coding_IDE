@@ -19,6 +19,7 @@ class response
 {
 public:
     response();
+    response(int correctG, int incorrectG);
     void setCorrectNumbers(const int input);
     void setIncorrectNumbers(const int input);
     int getCorrectNumbers() const;

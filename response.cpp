@@ -12,6 +12,11 @@ response::response(){
     incorrectGuess = 0;
 }
 
+response::response(int correctG, int incorrectG){
+    correctGuess = correctG;
+    incorrectGuess = incorrectG;
+}
+
 void response::setCorrectNumbers(const int input) {
     correctGuess = input;
 }

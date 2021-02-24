@@ -28,6 +28,12 @@ void mastermind::printSecretCode() {
     secretCode.printVector();
 }
 
+void mastermind::printGuessCode(code &guess) {
+    // prints it to the screen
+    cout << "GUESS CODE:   ";
+    guess.printVector();
+}
+
 code mastermind::humanGuess()
 //Reads a guess from the keyboard and returns a code object that represents the guess
 {
@@ -55,31 +61,26 @@ bool mastermind::isSolved(const response &guessResponse, const response &correct
 void mastermind::playGame()
 {
     // initializes a random code
-    secretCode = code(codeLength, digitRange);
-    response guessResponse = response(); //
-    response correctResponse = response();
-    printSecretCode();
 
-    correctResponse.setCorrectNumbers(codeLength);
-    correctResponse.setIncorrectNumbers(0);
+    secretCode = code(codeLength, digitRange);
+    code guess = code(codeLength, digitRange);
+
+    response guessResponse = response();
+    response correctResponse = response(codeLength, 0);
 
     // If both code length and range are successfully established, creates two code class objects. One is the
     // secret code, another is the guess code.
-    code secret = code(codeLength, digitRange);
-    code guess = code(codeLength, digitRange);
-
     int attempts = 1;
 
     do{ //Starts the 10 attempts.
         cout << endl << "-- Attempt #" << attempts << " --" << endl << endl;
 
         guess = humanGuess();
+        guessResponse = getResponse(guess);
 
         // Prints both secret and guess code for grading purposes.
-        cout << endl << "SECRET CODE:  ";
-        secret.printVector();
-        cout << "GUESS CODE:   ";
-        guess.printVector();
+        printSecretCode();
+        printGuessCode(guess);
         cout << "-------------------" << endl;
         cout << guessResponse;
 
@@ -93,11 +94,11 @@ void mastermind::playGame()
     if(isSolved(guessResponse, correctResponse))
     {
         cout << "The code breaker wins!" << endl << "The code was: ";
-        secret.printVector();
+        secretCode.printVector();
     } else
     {
         cout << "The code maker wins!" << endl << "The code was: ";
-        secret.printVector();
+        secretCode.printVector();
     }
 
 }

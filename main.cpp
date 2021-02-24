@@ -12,8 +12,7 @@ using namespace std;
 
 int main()
 {
-    int codeLength = 0, digitRange = 0, attempts = 1;
-    bool solutionFound = false;
+    int codeLength = 0, digitRange = 0;
 
     cout << "Enter code length:";
     cin >> codeLength;

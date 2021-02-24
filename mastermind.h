@@ -23,6 +23,7 @@ public:
     mastermind(int n, int m);
     mastermind();
     void printSecretCode();
+    void printGuessCode(code &guess);
     code humanGuess();
     response getResponse(const code &A);
     bool isSolved(const response &guessResponse, const response &correctResponse);
