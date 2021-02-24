@@ -17,6 +17,7 @@ using namespace std;
 class code
 {
 public:
+    code();
     code(int n, int m);
     void randomizeCode();
     int checkCorrect(const code &guessVector) const;

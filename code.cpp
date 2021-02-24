@@ -16,6 +16,12 @@ code::code(int n, int m)
     randomizeCode();
 }
 
+code::code()
+// Initializes each code object with a random vector code. Assigns the length of vector as well as the range of digits.
+{
+
+}
+
 void code::randomizeCode()
 // Uses 'time.h' file and srand to create a random seed. Produces randomized elements in the specified range.
 {

@@ -23,12 +23,13 @@ class mastermind
 public:
     mastermind(int n, int m);
     mastermind();
-    void getSecretCode(const int input);
+    void printSecretCode();
     code humanGuess();
     response getResponse(const code &A);
     bool isSolved(const response &A);
     void playGame();
 private:
+    code secretCode;
     int codeLength;
     int digitRange;
 }; // End of response class
