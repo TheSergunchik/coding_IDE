@@ -1,8 +1,8 @@
 /*
  * By: Sergey Petrushkevich & Luke Ackerman
  * Project 1, Part B
- * Contains code class and all necessary functions (checkCorrect, checkIncorrect).
- * Implements code class to run a game of Mastermind.
+ * Contains mastermind class and the functions to run a game.
+ * Implements code and response classes.
  */
 
 #include <iostream>
@@ -17,7 +17,7 @@
 using namespace std;
 
 class mastermind
-//Stores the response to a guess (number correct and number incorrect)
+//Stores the mastermind game functions
 {
 public:
     mastermind(int n, int m);

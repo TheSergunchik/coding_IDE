@@ -1,13 +1,15 @@
 /*
  * By: Sergey Petrushkevich & Luke Ackerman
  * Project 1, Part B
- * Contains code class and all necessary functions (checkCorrect, checkIncorrect).
- * Implements code class to run a game of Mastermind.
+ * Contains mastermind class and the functions to run a game.
+ * Implements code and response classes.
  */
 
 #include "mastermind.h"
 
 mastermind::mastermind(int n, int m) {
+    //initializes each mastermind object and a code object for a guess.
+    //Assigns the length of vector as well as the range of digits.
     codeLength = n;
     digitRange = m;
     code guess = code(codeLength, digitRange);
@@ -15,7 +17,7 @@ mastermind::mastermind(int n, int m) {
 }
 
 mastermind::mastermind()
-// default values for = 5 and m= 10
+// default constructor with values for = 5 and m= 10
 {
     codeLength = 5;
     digitRange = 10;
@@ -23,13 +25,13 @@ mastermind::mastermind()
 }
 
 void mastermind::printSecretCode() {
-    // prints it to the screen
+    // prints the secret code to the screen
     cout << endl << "SECRET CODE:  ";
     secretCode.printVector();
 }
 
 void mastermind::printGuessCode(code &guess) {
-    // prints it to the screen
+    // prints the most recent guessed code to the screen
     cout << "GUESS CODE:   ";
     guess.printVector();
 }
@@ -44,7 +46,7 @@ code mastermind::humanGuess()
 }
 
 response mastermind::getResponse(const code &A)
-//that is passed one code (a guess code), and returns a response
+//is passed one code (a guess code), and returns a response
 {
     response guessResponse = response();
     guessResponse.setCorrectNumbers(secretCode.checkCorrect(A));
@@ -53,28 +55,29 @@ response mastermind::getResponse(const code &A)
 }
 
 bool mastermind::isSolved(const response &guessResponse, const response &correctResponse)
-//passed a response and returns true if the response indicates the code is solved
+//passed a guess response and a correct response and returns true if the responses are equivalent
 {
     return (guessResponse == correctResponse);
 }
 
 void mastermind::playGame()
 {
-    // initializes a random code
+    //program run to play a game
 
+    //initializes the secret code and the guess variable
     secretCode = code(codeLength, digitRange);
     code guess = code(codeLength, digitRange);
 
+    //creates two code class objects, the guess response and the correct response
     response guessResponse = response();
     response correctResponse = response(codeLength, 0);
 
-    // If both code length and range are successfully established, creates two code class objects. One is the
-    // secret code, another is the guess code.
     int attempts = 1;
 
     do{ //Starts the 10 attempts.
         cout << endl << "-- Attempt #" << attempts << " --" << endl << endl;
 
+        //handles the inputted guess
         guess = humanGuess();
         guessResponse = getResponse(guess);
 
@@ -82,10 +85,13 @@ void mastermind::playGame()
         printSecretCode();
         printGuessCode(guess);
         cout << "-------------------" << endl;
+
+        //prints the response values for the inputted guess
         cout << guessResponse;
 
         attempts++;
     } while (((attempts <= 10) && (!(isSolved(guessResponse, correctResponse)))));
+    //limits this loop to run for 10 attempts or until the code is guessed
 
     cout << endl << "-- GAME FINISHED --" << endl;
 
