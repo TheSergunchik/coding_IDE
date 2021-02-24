@@ -41,8 +41,8 @@ response mastermind::getResponse(const code &A)
 //that is passed one code (a guess code), and returns a response
 {
     response guessResponse = response();
-    guessResponse.setCorrectResponse(A.checkCorrect(secretCode));
-    guessResponse.setIncorrectResponse(A.checkIncorrect(secretCode));
+    guessResponse.setCorrectResponse(secretCode.checkCorrect(A));
+    guessResponse.setIncorrectResponse(secretCode.checkIncorrect(A));
     return guessResponse;
 }
 
