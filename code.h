@@ -1,6 +1,6 @@
 /*
- * By: Sergey Petrushkevich
- * Project 1, Part A
+ * By: Sergey Petrushkevich & Luke Ackerman
+ * Project 1, Part B
  * Contains code class and all necessary functions (checkCorrect, checkIncorrect).
  * Implements code class to run a game of Mastermind.
  */
@@ -26,9 +26,6 @@ public:
     int getElement(int index) const;
     void printVector();
     void enterElements();
-
-    //test!
-
 private:
     int codeLength;
     int digitRange;

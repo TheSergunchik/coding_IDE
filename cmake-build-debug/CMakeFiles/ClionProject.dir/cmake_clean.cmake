@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ClionProject.dir/code.cpp.obj"
   "CMakeFiles/ClionProject.dir/main.cpp.obj"
+  "CMakeFiles/ClionProject.dir/mastermind.cpp.obj"
   "CMakeFiles/ClionProject.dir/response.cpp.obj"
   "ClionProject.exe"
   "ClionProject.exe.manifest"

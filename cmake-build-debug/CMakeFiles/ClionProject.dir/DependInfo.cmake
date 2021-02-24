@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/code.cpp" "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/cmake-build-debug/CMakeFiles/ClionProject.dir/code.cpp.obj"
   "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/main.cpp" "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/cmake-build-debug/CMakeFiles/ClionProject.dir/main.cpp.obj"
+  "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/mastermind.cpp" "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/cmake-build-debug/CMakeFiles/ClionProject.dir/mastermind.cpp.obj"
   "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/response.cpp" "C:/Users/Sergey (Admin)/OneDrive - Northeastern University/1Fundamentals of Algorithms/coding IDE/cmake-build-debug/CMakeFiles/ClionProject.dir/response.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

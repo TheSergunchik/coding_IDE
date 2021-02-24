@@ -176,6 +176,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\ClionProject.dir\build.make CMakeFiles/ClionProject.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mastermind.obj: mastermind.cpp.obj
+
+.PHONY : mastermind.obj
+
+# target to build an object file
+mastermind.cpp.obj:
+	$(MAKE) -f CMakeFiles\ClionProject.dir\build.make CMakeFiles/ClionProject.dir/mastermind.cpp.obj
+.PHONY : mastermind.cpp.obj
+
+mastermind.i: mastermind.cpp.i
+
+.PHONY : mastermind.i
+
+# target to preprocess a source file
+mastermind.cpp.i:
+	$(MAKE) -f CMakeFiles\ClionProject.dir\build.make CMakeFiles/ClionProject.dir/mastermind.cpp.i
+.PHONY : mastermind.cpp.i
+
+mastermind.s: mastermind.cpp.s
+
+.PHONY : mastermind.s
+
+# target to generate assembly for a file
+mastermind.cpp.s:
+	$(MAKE) -f CMakeFiles\ClionProject.dir\build.make CMakeFiles/ClionProject.dir/mastermind.cpp.s
+.PHONY : mastermind.cpp.s
+
 response.obj: response.cpp.obj
 
 .PHONY : response.obj
@@ -218,6 +245,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... mastermind.obj
+	@echo ... mastermind.i
+	@echo ... mastermind.s
 	@echo ... response.obj
 	@echo ... response.i
 	@echo ... response.s

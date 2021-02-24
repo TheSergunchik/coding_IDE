@@ -7,3 +7,9 @@ CMakeFiles/ClionProject.dir/code.cpp.obj: ../code.h
 CMakeFiles/ClionProject.dir/main.cpp.obj: ../code.h
 CMakeFiles/ClionProject.dir/main.cpp.obj: ../main.cpp
 
+CMakeFiles/ClionProject.dir/mastermind.cpp.obj: ../mastermind.cpp
+CMakeFiles/ClionProject.dir/mastermind.cpp.obj: ../response.h
+
+CMakeFiles/ClionProject.dir/response.cpp.obj: ../response.cpp
+CMakeFiles/ClionProject.dir/response.cpp.obj: ../response.h
+
