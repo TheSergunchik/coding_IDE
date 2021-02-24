@@ -86,7 +86,7 @@ int main()
     }
     
     //create new mastermind object
-    mastermind M = new mastermind(codeLength, digitRange);
+    mastermind M = mastermind(codeLength, digitRange);
     
     //runs game
     M.playGame();
