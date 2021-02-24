@@ -9,6 +9,7 @@
 #include <vector>
 #include <time.h>
 #include "code.h"
+#include "mastermind.h"
 using namespace std;
 
 
@@ -82,6 +83,12 @@ int main()
         cout << "The code maker wins!" << endl << "The code was: ";
         secret.printVector();
     }
+    
+    //create new mastermind object
+    mastermind M = new mastermind(codeLength, digitRange);
+    
+    //runs game
+    M.playGame();
 
     return 0;
 } // End of main.
