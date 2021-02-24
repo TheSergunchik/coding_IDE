@@ -41,8 +41,8 @@ response mastermind::getResponse(const code &A)
 //that is passed one code (a guess code), and returns a response
 {
     response guessResponse = response();
-    guessResponse.setCorrectResponse(secretCode.checkCorrect(A));
-    guessResponse.setIncorrectResponse(secretCode.checkIncorrect(A));
+    guessResponse.setCorrectNumbers(secretCode.checkCorrect(A));
+    guessResponse.setIncorrectNumbers(secretCode.checkIncorrect(A));
     return guessResponse;
 }
 
@@ -60,8 +60,8 @@ void mastermind::playGame()
     response correctResponse = response();
     printSecretCode();
 
-    correctResponse.setCorrectResponse(codeLength);
-    correctResponse.setIncorrectResponse(0);
+    correctResponse.setCorrectNumbers(codeLength);
+    correctResponse.setIncorrectNumbers(0);
 
     // If both code length and range are successfully established, creates two code class objects. One is the
     // secret code, another is the guess code.
@@ -81,13 +81,7 @@ void mastermind::playGame()
         cout << "GUESS CODE:   ";
         guess.printVector();
         cout << "-------------------" << endl;
-        cout << guessResponse();
-
-
-        /*
-        cout << "Correct Digits:   " << getResponse(guess).getCorrectResponse() << endl;
-        cout << "Misplaced Digits: " << getResponse(guess).getIncorrectResponse() << endl;
-        */
+        cout << guessResponse;
 
         attempts++;
     } while (((attempts <= 10) && (!(isSolved(guessResponse, correctResponse)))));

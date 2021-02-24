@@ -12,30 +12,30 @@ response::response(){
     incorrectGuess = 0;
 }
 
-void response::setCorrectResponse(const int input) {
+void response::setCorrectNumbers(const int input) {
     correctGuess = input;
 }
-void response::setIncorrectResponse(const int input) {
+void response::setIncorrectNumbers(const int input) {
     incorrectGuess = input;
 }
 
-int response::getCorrectResponse() const {
+int response::getCorrectNumbers() const {
     return correctGuess;
 }
 
-int response::getIncorrectResponse() const {
+int response::getIncorrectNumbers() const {
     return incorrectGuess;
 }
 
 bool operator == (const response &A, const response &B) {
     //B correct re
-    if((A.getCorrectResponse() == B.getCorrectResponse()) && (A.getIncorrectResponse() == B.getIncorrectResponse()))
+    if((A.getCorrectNumbers() == B.getCorrectNumbers()) && (A.getIncorrectNumbers() == B.getIncorrectNumbers()))
         return true;
     else
         return false;
 }
 
-ostream & operator << (ostream &out, response&A){
-    out << "Correct Digits:   " << A.getCorrectResponse() << endl << "Misplaced Digits: " << A.getIncorrectResponse() << endl;
+ostream& operator << (ostream &out, response&A){
+    out << "Correct Digits:   " << A.getCorrectNumbers() << endl << "Misplaced Digits: " << A.getIncorrectNumbers() << endl;
     return out;
 }

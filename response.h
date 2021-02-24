@@ -14,22 +14,21 @@
 
 using namespace std;
 
-
 class response
 //Stores the response to a guess (number correct and number incorrect)
 {
 public:
     response();
-    void setCorrectResponse(const int input);
-    void setIncorrectResponse(const int input);
-    int getCorrectResponse() const;
-    int getIncorrectResponse() const;
+    void setCorrectNumbers(const int input);
+    void setIncorrectNumbers(const int input);
+    int getCorrectNumbers() const;
+    int getIncorrectNumbers() const;
 
     //An overloaded operator == that compares responses and returns true if they are equal (global)
     friend bool operator == (const response &A, const response &B);
 
     //An overloaded operator << that prints a response (global).
-    friend ostream & operator << (ostream &out, response&A);
+    friend ostream& operator << (ostream &out, response &A);
 
 private:
     int correctGuess;

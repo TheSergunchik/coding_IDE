@@ -16,7 +16,6 @@
 
 using namespace std;
 
-
 class mastermind
 //Stores the response to a guess (number correct and number incorrect)
 {
